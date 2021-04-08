@@ -6,14 +6,16 @@ import reportWebVitals from "./reportWebVitals";
 
 const fname = "Shubham";
 const lname = "Raj";
+const currDate = new Date().toLocaleDateString();
+const currTime = new Date().toLocaleTimeString();
 ReactDOM.render(
   <>
     <h1>My name is {fname + lname} with + number but no space </h1>
     <h1>My name is {fname} {lname} concatenate method</h1>
     <h1>My name is {fname+" "+lname}</h1>
     <h1>{`My name is ${fname} ${lname} with tempelate literals`}</h1>
-    <p>My lucky number is {5+6}</p>   
-    <p>My lucky number is {Math.random()}</p>   
+    <p>My Current date is {currDate}</p>   
+    <p>My lucky number is {currTime }</p>   
   </>,
   document.getElementById("root")
 );
