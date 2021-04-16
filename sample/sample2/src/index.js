@@ -17,6 +17,8 @@ if (curDate>=1 &&curDate<12){
 
 ReactDom.render(
   <>
-<p>Hello now is {curDate} and <span style={cssStyle}>{greeting}</span></p>
+  <div>
+<h1>Hello now is {curDate} and <span style={cssStyle}>{greeting}</span></h1>
+</div>
 </>
 , document.getElementById("root"));
