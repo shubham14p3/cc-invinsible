@@ -1,20 +1,16 @@
+import React from "react";
 import "./App.css";
+import Card from "./Card";
 
 function App() {
   return (
     <>
-      <div className="cards">
-        <div className="card">
-          <img src="" alt="myPic" className="card__img"/>
-          <div className="card__info">
-            <span className="card__category"></span>
-            <h3 className="card__title"></h3>
-            <a href="" target="_blank">
-              <button>Watch Now</button>
-            </a>
-          </div>
-        </div>
-      </div>
+      <Card
+        imgSrc="https://wallpapercave.com/wp/wp4056410.jpg"
+        title="Dark"
+        sname="Darka"
+        link="https://wallpapercave.com/wp/wp4056410.jpg"
+      />
     </>
   );
 }
