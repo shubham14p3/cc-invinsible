@@ -5,6 +5,7 @@ import Card from "./Card";
 function App() {
   return (
     <>
+    <h1 className="heading_style">A Top NEtflix</h1>
       <Card
         imgsrc="https://wallpapercave.com/wp/wp4056410.jpg"
         title="Dark"
