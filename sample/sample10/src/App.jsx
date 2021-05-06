@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Time from "./Time";
+import Event from "./Event";
 
 function App() {
 
   return (
     <>
-    <Time/>
+    <Event/>
     </>
   );
 }
