@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Event from "./Event";
+import Form from "./Form";
 
 function App() {
 
   return (
     <>
-    <Event/>
+    <Form/>
     </>
   );
 }
