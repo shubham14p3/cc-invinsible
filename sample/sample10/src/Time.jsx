@@ -9,11 +9,13 @@ function Time() {
         newTime = new Date().toLocaleTimeString();
         setCtime(newTime);
     }
+
+    setInterval(UpdateTime,1000);
 return(
 
     <>
         <h1>{currentTime}</h1>
-        <button onClick={UpdateTime}>Click Me</button>
+        {/* <button onClick={UpdateTime}>Click Me</button> */}
     </>
 ) 
 }
